@@ -153,7 +153,7 @@ Conceptual Design is a process of designing at the earliest stage. In this proce
 **Embodiment Design** 
 The next phase of the design process is often called Embodiment Design . It is the phase where the design concept is invested with physical form, where we “**put meat on the bones**". Here the design is converted into the system or product. 
 
-1 Product Architecture : It refers to the fundamental structure and arrangement of components within a physical product. The idea is to map the product's functions and features, rather than the product's physical design. Professionals can express a product's architecture using schematic diagrams or other visual aids.
+**1 Product Architecture** : It refers to the fundamental structure and arrangement of components within a physical product. The idea is to map the product's functions and features, rather than the product's physical design. Professionals can express a product's architecture using schematic diagrams or other visual aids.
 
 ***Types of product architecture*** 
 Modular : It is focuses on the relationships between the various features of a product.These functions are described briefly, while the ways that they interact are described in depth.
@@ -173,3 +173,71 @@ Modular : It is focuses on the relationships between the various features of a p
 ❖ Helping save time and reduce production costs
 
 ❖ Improving the functional performance of a product
+
+**2 Configuration Design** 
+Configuration design is a type of design activity in which a set of predefined components can be combined in certain ways to design a system
+
+Standard Part - A standard part is one that has a generic function and manufactured routinely without regard to a particular product.
+Special Part - A special part is designed for a specific purpose. 
+Assembly - An assembly is the collection of two or more parts. 
+Sub assembly - A sub assembly is an assembly that is included within an assembly 
+A standard assembly is an assembly or subassembly that has a generic function and is manufactured routinely.
+Eg - electric motors and pumps . 
+**design of a component cannot proceed very far without making decisions about the material and the manufacturing process from which it will be made.**
+
+**3 Parametric Design** 
+Parametric design is a design method where features (such as building elements and engineering components) are shaped according to **algorithmic processes**, in contrast to being designed directly.
+1. Formulate the parametric design problem.
+
+2. Generate alternative designs.
+
+3. Analyse the alternative designs
+
+4. Evaluate the results of the analyses
+
+5. Refine/Optimize
+
+# Design Features 
+1 Aesthetic Design - It is the branch of philosophy that deals with the nature of art, beauty and taste. There is a phenomenon that social psychologists call **“the halo effect”**.
+Good looking products and user interface are perceived as more valuable and having more
+qualities.
+
+Beauty is in the eye of **beholder**. It's not only restricted to the eyesight. It is broken down into 4 parts . 
+	1 - Vision : The most dominant sense in majority of people is our sight. We
+		 can’t stop ourselves to look at what we find beautiful. Visual aesthetics have these key elements: Colour, Shape, Pattern, Line, Texture, Visual weight, Balance, Scale, Proximity and Movement.
+	 2 - Hearing : The ability to hear how you car engine works  how the digital product notifies     you of new messages and etc. This is the power of sound aesthetics. Sound aesthetics have these key elements: Loudness, Pitch, Beat, Repetition, Melody, Pattern and Noise. Using them well will create enjoyable “music” for our users.
+	 3 - Touch : Skin is the largest organ of the human body. Just remember the last time you are buying the clothes and checking the texture or you are buying the clothes and checking its shape, size, design and feeling the frame material.
+	 
+***Material aesthetics key elements are: Texture, Shape, Weight, Comfort, Temperature, Vibration and Sharpness.***
+	4 - Taste and Smell : Taste and Smell are sense that help us experience aesthetics even more deeply. Especially in food industry and different environment designs, these senses play an important role in experiencing aesthetics.
+
+## Design For Production 
+1 Relationship between design and production : Design for production means designing for the minimisation of the production cost without affecting the product quality.
+ ![[Screenshot 2024-04-02 at 6.39.07 PM.png]]
+
+Benefits
+
+❖ Products made with design for production will have a lower production cost
+
+❖ Quicker time-to-market
+
+❖ Shortening of the product development process
+
+❖ Production will be up to speed sooner
+
+❖ Parts may be combined to reduce assembly steps and quantity of parts
+
+❖ Catches and removes mistakes or faults
+
+❖ Higher quality of a product, as design can be refined and enhanced at every stage
+
+❖ As construction activities can be removed from a site and placed elsewhere, design for production can create a safer working environment
+
+# Design For Maintenance
+Design for maintenance should never compromise safety. In principle, the following aims are
+important:
+• Prevent damage and increase reliability.
+• Avoid the possibility of errors during disassembly, reassembly and start-up.
+• Simplify service procedures.
+• Make the results of servicing checkable.
+• Simplify inspection procedures.
