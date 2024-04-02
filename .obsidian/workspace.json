@@ -76,6 +76,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6459f0f34ce0a038",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -208,6 +218,8 @@
   },
   "active": "6dd049d36994df67",
   "lastOpenFiles": [
+    "Screenshot 2024-04-02 at 2.52.18 PM.png",
+    "Screenshot 2024-04-02 at 2.34.52 PM.png",
     "Core/Time complexity.md",
     "EDM.md",
     "Core/Operating System.md",

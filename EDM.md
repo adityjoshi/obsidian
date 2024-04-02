@@ -71,3 +71,105 @@
 **Iteration**
 
 The flowchart also highlights that the design process is iterative. The “Iterate Process Steps 2-7 as Needed” box indicates that designers may need to revisit previous stages based on the results of the testing and evaluation phase.
+
+
+# Human Centred Design 
+
+HCD which is also known as human centred design has 5 steps - 
+
+1 Empathise -  This is the first step of hcd. The purpose of this step is to conduct the interviews that give you an idea what people really care about. 
+We need to empathize with their situations. 
+*For eg*
+If you want to help old age people, you might found out they want the ability to walk around.
+In your conversation they might share with you different ways how you can do that 
+Later in the interview dig down little deeper and, look for personal stories or situations where things become difficult.
+Ideally you redo this process with other people with the same problem 
+
+2 Define the Problem Statement - Looking at the interviews, you can understand the actual needs that people are trying to fulfil with certain activities.
+One way to do this is by underlining the activities and the patterns people mentioned when they are talking about the problems. 
+		• like going for a walk
+		• meeting old friends for tea
+		• simply going grocery shopping around the corner
+		store
+It's not much about going out its all about staying in touch.
+After your analysis, formulate a problem statement:
+**Some elderly are afraid to be lonely. The want to stay connected**
+
+3 Ideate : Now focus on the problem statement only and come up with ideas that solve the problem.
+The point is not to get a perfect idea, but rather to come up with as many ideas as possible.
+This involves brainstorming sessions and sketching ideas. The goal is to come up with as many ideas as possible fostering creativity.
+Like designing a old people friendly hoverboard and modified pushcar.
+Whatever you have in your mind design it and and show it to the people whom you are trying to help and get their feedback.
+
+4 Prototype : Now take a moment and look what you have learned from your conversations about different ideas.
+Your solution could be a combination of the new idea and what is already being used in the market. 
+Then connect the dots, sketch up your final solution and go build a real prototype that's just good enough to be tested.
+
+5 Test : Now test your prototype with the actual users. 
+Don't defend your ideas in case people didn't like it 
+The aim is to learn what works and what not so any feedback is great. 
+Then go back to ideation or prototyping and apply your learning.
+Repeat the process until you have a prototype that works and solves the real problem..
+
+
+
+# Mind Mapping 
+Graphical representation of the information 
+Used to represent how the ideas or other items are connected to the central idea and to each other. 
+Mind maps are used to generate, visualise, structure, and classify ideas to look for patterns and insights that provide key design criteria.
+![[Screenshot 2024-04-02 at 2.34.52 PM.png]]
+
+Why Should I Mind Map?
+
+• Mind maps structure information
+
+• Mind maps enhance productivity
+
+• Mind maps foster creativity
+
+• Mind maps improve memory and recall
+
+# SCAMPER 
+Scamper is the technique used by many to ignite the silent creative genius lying inside them. 
+![[Screenshot 2024-04-02 at 2.52.18 PM.png]]
+
+
+
+
+# Types of Design / Design Types
+Conceptual Design is a process of designing at the earliest stage. In this process, a detailed outline of different design functions is figured out. The conceptual design includes designing different processes and interactions in a particular activity.
+
+**Conceptual Design**
+1 - Identification of customer needs - The goal of this is to identify the customer needs 
+2 - Problem Definition - to create a statement that tells what has to be accomplished to satisfy the needs of the customer. This involves analysis of competitive products, the listing of constraints and trade-offs.
+➢ Quality function deployment (QFD) - a valuable tool for linking customer needs with design requirements.
+➢ Product Design Specification (PDS) - A detailed listing of the product requirements
+3 - Gathering Information - To acquire broad information.
+4 - Conceptualisation - It involves creating a broad set of concepts that satisfies the problem statement
+5 - Concept Selection -  Evaluation of the design concepts, modifying and evolving into a single preferred concept, are the activities in this step.
+6 - Refinement of the PDS : The product design specification is revisited after the concept has been selected. The design team must commit to achieving certain critical values of design parameters, usually called critical-to-quality (CTQ) parameters, and to living with trade-offs between cost and performance.
+7 -  Design review : Before committing funds to move to the next design phase, a design review will be held. The design review will assure that the design is physically realisable and that it is economically worthwhile. It will also look at a detailed product-development schedule. This is needed to devise a strategy to minimise product cycle time and to identify the resources in people, equipment, and money needed to complete the project.
+
+**Embodiment Design** 
+The next phase of the design process is often called Embodiment Design . It is the phase where the design concept is invested with physical form, where we “**put meat on the bones**". Here the design is converted into the system or product. 
+
+1 Product Architecture : It refers to the fundamental structure and arrangement of components within a physical product. The idea is to map the product's functions and features, rather than the product's physical design. Professionals can express a product's architecture using schematic diagrams or other visual aids.
+
+***Types of product architecture*** 
+Modular : It is focuses on the relationships between the various features of a product.These functions are described briefly, while the ways that they interact are described in depth.
+
+❖ Integral: Integral architecture is just the opposite: it focuses on the function, purpose, and inner workings of each feature, with brief notes covering the relationships between them .
+
+***Benefits of using product architecture***
+
+❖ Highlighting features that are no longer useful so the team can remove and replace them
+
+❖ Design team to customize the product depending on users' preferences and needs
+
+❖ Making it possible to revise or reconfigure a module or element without impacting the entire project
+
+❖ Developing sustainable products with dynamic capabilities and long lifespans
+
+❖ Helping save time and reduce production costs
+
+❖ Improving the functional performance of a product
