@@ -198,7 +198,7 @@ Parametric design is a design method where features (such as building elements a
 5. Refine/Optimize
 
 # Design Features 
-1 Aesthetic Design - It is the branch of philosophy that deals with the nature of art, beauty and taste. There is a phenomenon that social psychologists call **“the halo effect”**.
+1 Aesthetic Design - It is the branch of **philosophy** that deals with the nature of art, beauty and taste. There is a phenomenon that social psychologists call **“the halo effect”**.
 Good looking products and user interface are perceived as more valuable and having more
 qualities.
 
@@ -241,3 +241,25 @@ important:
 • Simplify service procedures.
 • Make the results of servicing checkable.
 • Simplify inspection procedures.
+
+# User Requirement 
+Surveys– both open-ended and focused surveys, conducted electronically or on paper.
+
+**Interviews**– typically conducted face-to-face, but also over the telephone if deemed more appropriate.
+**Focus groups** –  focus groups are useful for discussing possible user requirements and brainstorming ideas.
+**Field studies** – observing the end-user situation and the environment in which a new product or system will be used is often extremely useful in understanding user needs.
+**Evaluation of an existing product** – provides a range of useful information (even competitor products can be tested). Usability evaluation reveals and clarifies good and bad aspects of current solutions- valuable input to new design work.
+**Customer journey mapping** - visualising the complete process that users go through to achieve their goal and identifying areas for improvement. The resulting map covers user experiences and interactions both with the product/service and related touch points (e.g. sales/support).
+**Task analysis** – a deeper analysis of users work with a system, useful for analysing how user's work tasks should be supported by functionality in a system.
+
+# User Experience 
+Usability is concerned with the“effectiveness, efficiency and satisfaction with which specified users achieve specified goals in particular environments
+
+In terms of a web site, the aim of usability is to make that web site easy to use whilst the aim of user experience is to make the user happy before, during and after using that web site.
+
+Usability can be modelled as the question“**Can the user accomplish their goal**?” whilst user experience can be phrased as “**Did the user have as delightful an experience as possible?**”
+
+Usability refers to how successfully a user can use a product to accomplish a specific goal. User
+experience encompasses an end user's entire experience with a product— not just how well the product worked, but how they expected it to work, how they feel about using it, and how they feel about the company overall.
+![[Screenshot 2024-04-03 at 10.36.13 AM.png]]
+
