@@ -1,4 +1,4 @@
-
+	
 # General Design Process 
 **Phase 1: Need Identification**
 
@@ -76,6 +76,8 @@ The flowchart also highlights that the design process is iterative. The “Itera
 # Human Centred Design 
 
 HCD which is also known as human centred design has 5 steps - 
+
+# Design Thinking Process 
 
 1 Empathise -  This is the first step of hcd. The purpose of this step is to conduct the interviews that give you an idea what people really care about. 
 We need to empathize with their situations. 
@@ -242,6 +244,13 @@ important:
 • Make the results of servicing checkable.
 • Simplify inspection procedures.
 
+# Design for minimum risk 
+1. **Identify Hazards**: Conduct a thorough analysis to spot potential risks.
+2. **Implement Safeguards**: Integrate fail-safes and redundancy to prevent accidents.
+3. **Simplify Interaction**: Design intuitive interfaces and clear instructions.
+4. **Prioritize Durability**: Use robust materials and construction methods.
+5. **Adhere to Standards**: Ensure compliance with safety regulations and industry norms.
+
 # User Requirement 
 Surveys– both open-ended and focused surveys, conducted electronically or on paper.
 
@@ -263,3 +272,24 @@ Usability refers to how successfully a user can use a product to accomplish a sp
 experience encompasses an end user's entire experience with a product— not just how well the product worked, but how they expected it to work, how they feel about using it, and how they feel about the company overall.
 ![[Screenshot 2024-04-03 at 10.36.13 AM.png]]
 
+# Usability Testing 
+Usability testing is the most common technique to check how usable your interface is from the
+human centre design framework.
+Usability testing is Evaluating a product by testing it on users
+
+The objectives of this technique are:
+
+• Gain insights from our users
+
+• See if we meet user’s expectations
+
+• Check if the design is matching business decision to real world use
+
+• Check if the user can perform the tasks we proposed
+
+• Find out if we’re on the right track
+
+• Get user reactions and feedback
+
+# CUSTOMER CO-CREATION 
+Customer co-creation, also known as co-creation of value, is a collaborative process in which companies and their customers work together to create value through the development, customization, or enhancement of products, services, or experiences.
