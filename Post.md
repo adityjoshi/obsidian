@@ -52,3 +52,27 @@ Now, if one of the servers in the USA, let's say the New York server, goes down,
 So, in this scenario, because the New York server is down, users are automatically redirected to the Los Angeles server, which is still operational and can serve their requests. 
 
 I keep on sharing my learning and knowledge, so if it sparks your curiosity, then follow along. And as always, it will be no-fluff; just engineering. 
+
+
+# What is Web Hooks 
+Whenever we make any changes to a GitHub repository, a notification email is automatically sent out to relevant recipients. So here is a quick gist explaining how we get these mails.
+
+A WebHook is an HTTP-based callback function that allows lightweight, event-driven communication between 2 APIs. They are essentially HTTP callbacks that are triggered by specific events happening in another application or service. When an event occurs, the source application sends an HTTP POST payload to a predefined URL (the web hook URL) with relevant data about the event. The receiving application can then process this data and take appropriate actions.
+
+In GitHub, web hooks are commonly used to trigger actions whenever certain events occur, such as pushing new code, opening an issue, or creating a pull request. This enables automation and integration with other systems.
+
+When you make changes to a repository and a web hook is set up to trigger on those changes, here's a simplified explanation of how a mail can be sent:
+
+1  Change in Repository : Let's say you push new code to a GitHub repository.
+
+2 Web hook Triggered : GitHub detects this event (pushing new code) and triggers the web hook associated with that repository.
+
+3 HTTP POST Request: GitHub sends an HTTP POST request to the web hook URL configured for that repository. This request contains information about the event, such as the type of event (e.g., push), details of the commits made, which branch affected, etc.
+
+4 Receiving Server : The HTTP POST request is then sent to the URL endpoint specified in the web hook. The receiving application or service listens for incoming requests at this endpoint.
+
+5 Processing the Payload : The receiving server processes the payload of the POST request. In this case, it might parse the information to understand what changes were made, who made them, and any other relevant details.
+
+6 Sending Email : Based on the information extracted from the payload, the server can then trigger an action, such as sending an email. For example, it will compose an email notifying relevant folks about the changes made to the repository, including details like the commits pushed and the branch affected.
+
+Web hooks provide a flexible and efficient way for applications and services to communicate and stay synchronised in real-time, enabling seamless integration and automation of workflows.
