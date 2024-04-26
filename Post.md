@@ -76,3 +76,70 @@ When you make changes to a repository and a web hook is set up to trigger on tho
 6 Sending Email : Based on the information extracted from the payload, the server can then trigger an action, such as sending an email. For example, it will compose an email notifying relevant folks about the changes made to the repository, including details like the commits pushed and the branch affected.
 
 Web hooks provide a flexible and efficient way for applications and services to communicate and stay synchronised in real-time, enabling seamless integration and automation of workflows.
+
+# UPI 
+Recently UPI is launched in Europe and  people are amazed by seeing transaction through QR. They have never witnessed something like this either they pay through cash or through card. 
+UPI is a great initiative launched by the government making our life easy. In milliseconds we can transfer money to others without nay hassle. 
+
+Recently UPI is launched in Europe and folks are pretty amazed. It's all about QR codes which is new to them. Before this, they were used to paying with cash or card. UPI is a great initiative that has simplified our lives. With just a few clicks, money can be transferred to others within milliseconds, eliminating any unnecessary hassle. Here is a gist explaining how UPI works 
+
+
+What is UPI ?
+UPI is Unified Payment Interface. The main objective of the UPI was to take different payment interface which are exposed by bank it can be payment wallets or any transaction capable systems and unify them. This is the ideal phase to come in as a government and unify all the private entities creating different system having different behaviours, so that the user can have similar behaviour for any type of payment.
+
+UPI Address 
+The UPI address acts as a unique identifier for each user's bank account within the UPI system. It is similar to a username or an address in other network protocols. When a user wants to send money to another user, they only need to know their UPI address. Once they have set up their account, they can link their bank account to the app and create a Virtual Payment Address (VPA). It's like giving your money its own email address - it's a unique identifier that allows you to send and receive payments easily.
+One of the objectives of UPI was to take the payments from banks and unify them( standardised). Through one address any transaction can be made to any other address regardless of the bank they have an account of.
+They are not physical addresses but they are addresses which can referred to they are the identity of user.
+
+So where are these addresses stored? All these virtual address belonging to one user are stored in a huge data store which is maintained and administered by NPCI. This registry acts as a lookup table, allowing the UPI system to route transactions to the correct bank accounts based on the recipient's UPI address. 
+
+How Authentication works ?
+So let's say i want to transfer money from my bank account to my friend's bank account how will UPI know that i am the real user how it will authenticate? So all of this happens through NPCI.
+When a request is sent it needs to be authenticated. A signature is attached to the address such as a private key. The private key is a secret that NPCI maintains.
+
+How does the receiver's bank know that the request is authentic ?
+The sign-in request is made with the help of a pin. The pin number already contains details such as your bank card details. The pin is validated by the NPCI and the request is signed and then forwarded to the banks for further processing. So it goes like i have made the payment request it goes to my PSP then it goes to the NPCI and then to the receiver's PSP.
+
+Instead of going directly to NPCI it is going to pass through sender's bank PSP to reduce the load otherwise If all the people directly connect to NPCI through direct requests the load will keep increasing.
+
+ 
+How UPI handles billions of transactions with ease?
+The users connect to their bank through the payment interface which is authenticated through a pin. This request is then forwarded to the NPCI which is followed by the bank to the money that needs to be transferred.
+UPI is designed to be interoperable across different banks and payment service providers, allowing users to initiate transactions seamlessly regardless of their bank or payment app. This interoperability enhances convenience and accessibility, driving adoption and transaction volume.
+UPI's architecture is designed to scale horizontally to accommodate a growing number of users and transactions. Its distributed nature allows for efficient load distribution and resource utilisation, enabling the system to handle increasing transaction volumes without significant performance degradation.
+
+But what if NPCI goes down ?
+All the request are passing through the NPCI either its from the sender side or from the receiver side .We can clearly see that NPCI is a single point of failure. If NPCI fails all the online transactions will go on pause.
+
+Another place where NPCI comes in is suppose i want to transfer money from my account(Account A) to my friend account(Account B). How my bank will know what B is? So here comes NPCI it works as a Central Entity similar to DNS and it will tell me where does b point to.
+
+How does the UPI system work exactly?
+The UPI system consists of four main components: the issuing bank, the acquiring bank, the NPCI, and the UPI app.
+1. The issuing bank or the sender's bank is the bank that holds the user's account and issues their debit or credit card.
+2. When a user initiates a payment using their UPI app, the issuing bank processes the payment request and transfers the funds to the recipient's bank account.
+3. The acquiring bank or the receiver's bank is the bank that holds the recipient's account and receives the payment from the issuing bank.
+4. It then credits the funds to the recipient's account.
+5. The NPCI comes into picture for the routing purposes of the virtual address.
+6. It receives the payment request from the issuing bank and routes it to the receiver's bank.
+7. It also handles the settlement of funds between the banks and ensures that the transaction is completed successfully.
+8. The UPI app is the interface that users interact with to initiate and complete payments.
+
+# Gomail
+There are times when we have to integrate mailing service to our product. Timely notifying our customer is one of the most important thing. If you are working with go and want to integrate notification service to your product you can use Gomail.
+
+Integrating mailing services into your product is crucial for timely customer notifications. If you're working with Go and seeking a seamless solution, look no further than Gomail.
+Gomail simplifies email sending in Golang with an easy-to-use API for crafting emails with attachments and managing recipients. It simplifies the way you handle emails, making communication more efficient and effective.
+
+Gomail supports:
+- Attachments
+- Embedded images
+- HTML and text templates
+- Automatic encoding of special characters
+- SSL and TLS
+- Sending multiple emails with the same SMTP connection
+
+Upgrade your email experience today with Gomail – the ultimate solution for efficient inbox management. Ready to go with Golang? Explore Gomail now and revolutionize the way you communicate!
+# Load Balancer vs reverse proxy vs api gateway 
+
+Apis Gateways, Load Balancer and Reverse Proxy Servers  are essential components in modern software architecture. Each serves a specialised function, enhancing the performance, security, and scalability of web applications. 
