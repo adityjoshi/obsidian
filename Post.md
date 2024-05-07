@@ -143,3 +143,31 @@ Upgrade your email experience today with Gomail – the ultimate solution for ef
 # Load Balancer vs reverse proxy vs api gateway 
 
 Apis Gateways, Load Balancer and Reverse Proxy Servers  are essential components in modern software architecture. Each serves a specialised function, enhancing the performance, security, and scalability of web applications. 
+
+# Go
+Golang has been my go to language for a time now. To put my learnings to practice, I build Hostel Ease - a reimplementation of Hostel Grievance Redressal in Go. 
+
+For responsive backend I have Gin, the lightning-fast web framework written in Go. With Gin onboard, HostelNest reaches new heights of performance and productivity. Leveraging its martini-like API, Gin ensures blazing-fast response times—up to 40 times faster—thanks to its httprouter under the hood.
+
+For database i have used PostgreSQL renowned for its reliability, scalability, and extensibility. PostgreSQL, an RDBMS database, brings a plethora of benefits to HostelNest.
+
+Instead of writing hardcoded PostgreSQL queries, I've harnessed the power of GORM (Go Object Relational Mapper) within HostelNest, transforming database interactions into a seamless, intuitive process. GORM simplifies database interactions with its clean and expressive API, reducing development time and complexity.
+
+Integrating mailing services into Hostel Ease is crucial for timely customer notifications. Gomail is the best option. It simplifies email sending in Golang with an easy-to-use API for crafting emails with attachments and managing recipients. It simplifies the way you handle emails, making communication more efficient and effective.
+
+
+
+Golang has been my go-to language for a while now. To put my learnings into practice, I built Hostel Ease—a reimplementation of Hostel Grievance Redressal in Go. Here is a quick gist explaining Hostel Ease. 
+
+For a responsive backend, I've incorporated Gin, the lightning-fast web framework written in Go. With Gin on board, HostelNest reaches new heights of performance and productivity. Leveraging its martini-like API, Gin ensures blazing-fast response times—up to 40 times faster—thanks to its httprouter under the hood.
+
+For the database, I've utilised PostgreSQL, renowned for its reliability, scalability, and extensibility. PostgreSQL, an RDBMS database, brings a plethora of benefits to HostelNest.
+
+Instead of writing hardcoded PostgreSQL queries, I've harnessed the power of GORM (Go Object Relational Mapper) within HostelNest, transforming database interactions into a seamless, intuitive process. GORM simplifies database interactions with its clean and expressive API, reducing development time and complexity.
+
+Integrating mailing services into Hostel Ease is crucial for timely customer notifications. Gomail is the best option. It simplifies email sending in Golang with an easy-to-use API for crafting emails with attachments and managing recipients. Gomail simplifies the way you handle emails, making communication more efficient and effective.
+
+It was fun writing and working on this project. Building Hostel Ease from the ground up, reimagining the Hostel Grievance Redressal system in Go, has been both challenging and immensely gratifying.
+
+⚡️ I keep on writing and sharing my learning across my socials, so if you resonate do follow along. I keep it no fluff; just engineering.  
+

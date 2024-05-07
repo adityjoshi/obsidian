@@ -319,3 +319,66 @@ Here's how to conduct usability testing effectively:
 10. **Document Findings**: Document the findings of the usability test, including observed usability issues, participant feedback, and recommendations for improvement. Share the results with stakeholders, including designers, developers, and product managers, to inform decision-making and guide future iterations.
 
 By following these steps, you can conduct effective usability testing to identify usability issues, gather valuable feedback, and improve the overall user experience of your product.
+
+# Module 3 
+## Sustainable design 
+
+1 - Design for the environment - Design for the environment is a design approach to reduce the overall human health and environmental  impact of a product, process or service, where impacts are considered across its life cycle.
+
+**Sustainable development**
+Sustainable development is a concept that aims to meet the needs of the present without
+compromising the ability of future generations to meet their own needs. It involves finding a balance between economic growth, social progress, and environmental protection.
+
+Sustainable development goals 
+1. No Poverty
+2. Zero Hunger
+3. Good Health and Well-being
+4. Quality Education
+5. Gender Equality
+6. Clean Water and Sanitation
+7. Affordable and Clean Energy
+8. Decent Work and Economic Growth
+9. Industry, Innovation, and Infrastructure
+10. Reduced Inequality
+11. Sustainable Cities and Communities
+12. Responsible Consumption and Production
+13. Climate Action
+14. Life Below Water
+15. Life on Land
+16. Peace, Justice, and Strong Institutions
+17. Partnerships for the Goals
+
+## Role of design in sustainable development 
+Sustainable design seeks to reduce negative impacts on the environment, and the health and comfort of users, thereby improving the performance. The basic objectives of sustainability are to reduce consumption of non-renewable resources, minimize waste, and create healthy, productive environments.
+
+**Reduction in power consumption**
+While designing, we seek to improve and alter, even disrupt . In fact, we love to design and redesign. Buzz words today are **innovation** and **disruption**, both considered as positive. But
+the fundamental question is how can we design and redesign responsibly?
+
+## Sustainable design principle 
+
+● Learning from nature (Biomimicry Principle)
+
+● Respect for energy & natural resources (Conservation Principle)
+
+● Respect for people (Human Vitality Principle)
+
+● Respect for place (Ecosystem Principle)
+
+● Respect for future (“Seven Generations” Principle)
+
+● Systems thinking (Holistic Principle)
+
+# Learning from nature (Biomimicry Principle)
+Biomimicry, often referred to as "learning from nature," is a design approach that takes inspiration from biological systems and processes to solve human challenges and create sustainable solutions. It's about observing nature's strategies, patterns, and principles and applying them to design innovative technologies, products, and systems.
+
+## Nature as model
+• Nature runs on sunlight.
+• Nature recycles everything.
+• Nature rewards cooperation.
+• Nature banks on diversity.
+• Nature relies on local expertise.
+• Nature curbs excesses within.
+• Nature suggests relative abundances and balances.
+• Nature demonstrates achievable rates.
+• Nature shows limits.
