@@ -8,111 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7f8c156343c144f",
+            "id": "cfe6a84d309fb506",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5efc06dfd0b3021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/Cloud.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69af226e9bf97a32",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
-          },
-          {
-            "id": "6b44d50f1d1e7d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Postgresql.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "764f33f59c94c3ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core/Time complexity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dd049d36994df67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Post.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4178140602799c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6459f0f34ce0a038",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "61bd4e2efcb86251",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EDM.md",
+                "file": "module 5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDM.md",
+                "file": "module 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDM.md",
+                "file": "module 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDM.md"
+                "file": "module 5.md"
               }
             }
           }
@@ -240,21 +147,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61bd4e2efcb86251",
+  "active": "cfe6a84d309fb506",
   "lastOpenFiles": [
     "EDM.md",
-    "Post.md",
     "Postgresql.md",
-    "Java.md",
+    "Post.md",
+    "Core/Time complexity.md",
     "CSE.md",
+    "Core/Cloud.md",
+    "Screenshot 2024-05-13 at 11.01.56 AM.png",
+    "module 5.md",
+    "Java.md",
     "Screenshot 2024-04-03 at 10.36.13 AM.png",
     "Screenshot 2024-04-02 at 6.39.07 PM.png",
     "Screenshot 2024-04-02 at 2.52.18 PM.png",
     "Screenshot 2024-04-02 at 2.34.52 PM.png",
-    "Core/Time complexity.md",
     "Core/Operating System.md",
     "Core/Computer Networking.md",
-    "Core/Cloud.md",
     "DS/String & String Builder.md",
     "Tokens.md",
     "DS",

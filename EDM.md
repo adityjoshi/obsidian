@@ -382,3 +382,43 @@ Biomimicry, often referred to as "learning from nature," is a design approach th
 • Nature suggests relative abundances and balances.
 • Nature demonstrates achievable rates.
 • Nature shows limits.
+
+
+
+
+
+
+
+# Module 4
+
+## Concept Generation 
+It is a process that starts with a list of parameters/requirements set by the customer regarding the needs and specification. 
+Based on requirements concept generation helps us to pinpoint variety of solutions and ideas.
+Easier to run away with the first idea and then start the design process.
+Looking at the problem from different angles can help you to get some new concepts that you may not have come up with without deep thinking
+It is a crucial part of development process
+
+THINK OUTSIDE THE BOX 
+
+## Steps in concept generation 
+ 1. Understanding the problem
+ 2. Researching established solution
+ 3. Brainstorming and ideation
+ 4. Accessing the ideas and solution 
+ 5. picking the winner and start working on it 
+
+### Brainstorming 
+1. A session can last from anywhere between 15 minutes to an hour there is only one goal that come with a lot of ideas.
+2. Based on two premised quantity beats quality and deferring judgement
+3. Practice that we should follow is answering solution with "Yes, and" instead of "Yes, but"
+4. Include the people from outside the design circle it will allow to bring fresh ideas without restricting logic.
+5. It is the product development team’s task to later assess these ideas and choose whether using them in the concept  is realistic or not.
+
+## Metaphor 
+A metaphor is rhetorical figure representing one concept by way of another concept, which is considered to be similar to the concept to be represented. Metaphors are often used in design.
+Metaphors are often used to help visualise the complex system processes by drawing parallels to more familiar or understandable concepts. 
+
+Eg. In software engineering, you might use the metaphor of a "pipeline" to represent the flow of data through a system. Just as water flows through a pipeline from one end to the other, data moves through various stages of processing in a software application.
+
+![[Screenshot 2024-05-13 at 11.01.56 AM.png]]
+
