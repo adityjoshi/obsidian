@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cfe6a84d309fb506",
+            "id": "8b04c25991b3295c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "module 5.md",
+                "file": "ed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfe258dae5d2e3b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "module 5.md",
+                "file": "EDM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "module 5.md",
+                "file": "EDM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "module 5.md"
+                "file": "EDM.md"
               }
             }
           }
@@ -147,24 +160,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfe6a84d309fb506",
+  "active": "cfe258dae5d2e3b7",
   "lastOpenFiles": [
+    "ed.md",
     "EDM.md",
+    "CSE.md",
+    "module 5.md",
+    "DS/String & String Builder.md",
+    "Core/Time complexity.md",
+    "Core/Operating System.md",
+    "Core/Computer Networking.md",
+    "Core/Cloud.md",
     "Postgresql.md",
     "Post.md",
-    "Core/Time complexity.md",
-    "CSE.md",
-    "Core/Cloud.md",
     "Screenshot 2024-05-13 at 11.01.56 AM.png",
-    "module 5.md",
     "Java.md",
     "Screenshot 2024-04-03 at 10.36.13 AM.png",
     "Screenshot 2024-04-02 at 6.39.07 PM.png",
     "Screenshot 2024-04-02 at 2.52.18 PM.png",
     "Screenshot 2024-04-02 at 2.34.52 PM.png",
-    "Core/Operating System.md",
-    "Core/Computer Networking.md",
-    "DS/String & String Builder.md",
     "Tokens.md",
     "DS",
     "System Design",

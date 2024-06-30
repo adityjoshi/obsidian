@@ -1,0 +1,3 @@
+Design for the environment - design for the environment is the designing process which aims to reduce the overall human health and environmental impact of products, process where impacts are considered across there lifetime.
+
+Sustainable development - sustainable development aims to meet the need of the present generation without compromising the ability of the future generation to meet their own needs. It finding  a balance between economic growth, social impact 

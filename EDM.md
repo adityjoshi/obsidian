@@ -422,3 +422,12 @@ Eg. In software engineering, you might use the metaphor of a "pipeline" to repre
 
 ![[Screenshot 2024-05-13 at 11.01.56 AM.png]]
 
+
+## Sketching in design 
+In designing physical products, sketching is commonly used as a quick and inexpensive method to allow the designer to express an idea quickly, evaluate the concept, and explain it
+to others.
+## K-scripts 
+Sketches are fine. But, how can we sketch complex systems that deal with user-interactions, some of which may not even have a clear physical representations, while expressing an idea in an intellectually and emotionally compelling way?
+
+The solution is simple. Use the words instead of images to express the concept. Use K-Scripts instead of sketches. The format of the K-Script can be elegant and visually designed,
+or as simple as a spreadsheet table.

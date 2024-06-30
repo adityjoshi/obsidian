@@ -76,3 +76,11 @@ Verilog and VHDL are both Hardware Description Languages (HDLs) used for describ
 - **Popularity:** VHDL is favored for its versatility and comprehensive features, making it well-suited for complex FPGA designs and other applications.
 
 In summary, while both Verilog and VHDL are used for hardware description, their popularity and preferred applications may vary by region and industry. Verilog is prominent in the US and is commonly used for digital logic chip design, while VHDL is more popular in Europe and often used for FPGA design and other applications.
+
+
+
+
+
+dsa
+c
+torrent 
