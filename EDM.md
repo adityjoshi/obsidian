@@ -100,7 +100,7 @@ After your analysis, formulate a problem statement:
 3 Ideate : Now focus on the problem statement only and come up with ideas that solve the problem.
 The point is not to get a perfect idea, but rather to come up with as many ideas as possible.
 This involves brainstorming sessions and sketching ideas. The goal is to come up with as many ideas as possible fostering creativity.
-Like designing a old people friendly hoverboard and modified pushcar.
+Like designing a old people friendly hoverboard and modified push car.
 Whatever you have in your mind design it and and show it to the people whom you are trying to help and get their feedback.
 
 4 Prototype : Now take a moment and look what you have learned from your conversations about different ideas.
@@ -371,7 +371,7 @@ the fundamental question is how can we design and redesign responsibly?
 
 # Learning from nature (Biomimicry Principle)
 Biomimicry, often referred to as "learning from nature," is a design approach that takes inspiration from biological systems and processes to solve human challenges and create sustainable solutions. It's about observing nature's strategies, patterns, and principles and applying them to design innovative technologies, products, and systems.
-
+Nature went through billions of years of evolution, has already solved many of the challenges humans face. By studying and emulating these natural strategies, we can create more efficient, sustainable, and innovative solutions.
 ## Nature as model
 • Nature runs on sunlight.
 • Nature recycles everything.
@@ -431,3 +431,69 @@ Sketches are fine. But, how can we sketch complex systems that deal with user-in
 
 The solution is simple. Use the words instead of images to express the concept. Use K-Scripts instead of sketches. The format of the K-Script can be elegant and visually designed,
 or as simple as a spreadsheet table.
+
+
+
+
+# **Module 5**
+
+**Stress and strain**
+stress is defined as force per unit area within materials that arises from externally applied forces.
+**Stress (σ) = Force (F) /Area (A)**
+The unit of stress is N/m2
+
+## **Classifying Loads on Materials**
+
+• Normal Load (Axial load): Load is perpendicular to the supporting material.
+
+• Tension Load: As the ends of material are pulled apart to make the material longer, the load
+
+is called a tension load.
+
+• Compression Load: As the ends of material are pushed into make the material smaller, the
+
+load is called a compression load.
+
+• Torsion Loads: Angular distortion on a component, such as a shaft, when a moment is
+
+applied. (Twisting)
+
+• Thermal Loads: Distortion caused be heating or cooling a material. A normal load is
+
+created when the material is constrained in any direction in the plane that is constrained.
+
+## Posions Ratio 
+
+Longitudinal strain is a measure of deformation representing the change in length of an object in response to an applied force along its length. It is a dimensionless quantity calculated as the ratio of the change in length (ΔL) to the original length (L0) of the object. Mathematically, it is expressed as:
+
+Longitudinal Strain(ϵ)=ΔL/Lo
+
+### Key Points:
+- **Dimensionless**: Since it is a ratio of two lengths, it has no units.
+- **Positive or Negative**: 
+  - Positive strain indicates elongation (the object is stretched).
+  - Negative strain indicates compression (the object is shortened).
+- **Applications**: Used in material science and engineering to analyze how materials deform under various types of forces.
+
+
+Lateral strain is the deformation that occurs perpendicular to the direction of the applied force. When an object is subjected to a longitudinal strain (stretching or compressing along its length), it often also experiences a change in dimensions in the directions perpendicular to the applied force. Lateral strain is a measure of this perpendicular deformation.
+
+Lateral strain (ϵlat​​) is calculated as the ratio of the change in the object's width (Δd) to the original width (d0​):
+
+ϵlat​=Δd/dO​
+
+### Key Points:
+
+- **Dimensionless**: Like longitudinal strain, lateral strain is also a dimensionless quantity.
+    
+- **Negative in Tension, Positive in Compression**:
+    
+    - When an object is stretched (tension), the lateral dimensions usually decrease, resulting in a negative lateral strain.
+    - When an object is compressed, the lateral dimensions usually increase, resulting in a positive lateral strain.
+- **Poisson's Ratio**: This is a material property that relates longitudinal strain and lateral strain. It is defined as the negative ratio of lateral strain to longitudinal strain:
+    
+ν=−​ ϵlat​​/ϵlong
+
+The ratio of lateral strain to the longitudinal strain is a constant for a given material, when the material is stressed within the elastic limit. This ratio is called Poisson’s ratio and it is generally denoted by μ. Hence mathematically, 
+Poisson’s ratio, µ= Lateral strain / Longitudinal strain
+or Lateral strain = µ × longitudinal strain
