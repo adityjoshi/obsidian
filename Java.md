@@ -187,3 +187,200 @@ Server-side scripting refers to code that is executed on the server. It is prima
 ### Conclusion
 
 Both client-side and server-side scripting play crucial roles in web development. Client-side scripting is essential for creating responsive and interactive user interfaces, while server-side scripting handles data processing, business logic, and database interactions. Effective web applications often use a combination of both to provide a seamless user experience.
+
+# Question 
+URLs (Uniform Resource Locators) provide information necessary to access resources on the web. The components of a URL give details about the location and nature of the resource, as well as the method for accessing it. Here's a breakdown of the information provided by a URL:
+
+### URL Components
+
+1. **Scheme/Protocol**:
+   - Indicates the protocol used to access the resource.
+   - Common protocols include `http`, `https`, `ftp`, `mailto`, `file`, etc.
+   - Example: `https://`
+
+2. **Host/Domain**:
+   - Specifies the domain name or IP address of the server hosting the resource.
+   - Example: `www.example.com`
+
+3. **Port** (Optional):
+   - Specifies the port number to connect to on the server.
+   - Default ports: 80 for HTTP, 443 for HTTPS.
+   - Example: `:8080`
+
+4. **Path**:
+   - Specifies the specific resource within the domain.
+   - Example: `/path/to/resource`
+
+5. **Query String** (Optional):
+   - Provides additional parameters to pass to the server.
+   - Begins with a `?` and includes key-value pairs separated by `&`.
+   - Example: `?key1=value1&key2=value2`
+
+6. **Fragment** (Optional):
+   - Points to a specific section within the resource.
+   - Begins with a `#`.
+   - Example: `#section1`
+
+### Example URL
+
+```
+https://www.example.com:8080/path/to/resource?key1=value1&key2=value2#section1
+```
+
+### Breakdown of Example URL
+
+- **Scheme/Protocol**: `https`
+- **Host/Domain**: `www.example.com`
+- **Port**: `8080`
+- **Path**: `/path/to/resource`
+- **Query String**: `key1=value1&key2=value2`
+- **Fragment**: `section1`
+
+### Information Provided by Each Component
+
+1. **Scheme/Protocol**:
+   - Specifies how the resource should be retrieved (e.g., securely over HTTPS).
+
+2. **Host/Domain**:
+   - Identifies the server hosting the resource.
+
+3. **Port**:
+   - Specifies the port to use when connecting to the server (if different from the default).
+
+4. **Path**:
+   - Directs to the specific resource on the server.
+
+5. **Query String**:
+   - Passes additional parameters to the server, often used in web applications for filtering, searching, or providing input data.
+
+6. **Fragment**:
+   - Allows for navigation to a specific part of the resource, useful in large documents or web pages.
+
+### Usage in Web Development
+
+- **Web Browsers**: Use URLs to navigate to web pages.
+- **APIs**: Use query strings to filter and sort data.
+- **Hyperlinks**: Use URLs to link to other resources.
+- **File Access**: Use URLs to access files on local or network drives (e.g., `file:///C:/path/to/file`).
+
+By dissecting a URL, you can understand how to access a specific resource, including the server to contact, the path to the resource, any parameters needed for access, and specific sections within the resource.
+
+
+Here are the SQL queries based on the provided schema:
+
+1. **Select the detail of the employee whose name start with P:**
+   ```sql
+   SELECT * 
+   FROM employee 
+   WHERE empname LIKE 'P%';
+   ```
+
+2. **How many permanent candidates take a salary more than 5000:**
+   ```sql
+   SELECT COUNT(*) 
+   FROM empsalary 
+   WHERE ispermanent = 'YES' AND salary > 5000;
+   ```
+
+3. **Select the detail of the employee whose emailId is in Gmail:**
+   ```sql
+   SELECT * 
+   FROM employee 
+   WHERE emaildid LIKE '%@gmail.com';
+   ```
+
+4. **Select the details of the employee who work either for department E-104 or E-102:**
+   ```sql
+   SELECT * 
+   FROM employee 
+   WHERE department IN ('E-104', 'E-102');
+   ```
+
+5. **What is the department name for DeptID E-102:**
+   ```sql
+   SELECT deptname 
+   FROM empdept 
+   WHERE deptid = 'E-102';
+   ```
+
+6. **What is the total salary that is paid to permanent employees:**
+   ```sql
+   SELECT SUM(salary) 
+   FROM empsalary 
+   WHERE ispermanent = 'YES';
+   ```
+
+7. **List name of all employees whose name ends with 'a':**
+   ```sql
+   SELECT empname 
+   FROM employee 
+   WHERE empname LIKE '%a';
+   ```
+
+8. **List the number of departments of employees in each project:**
+   ```sql
+   SELECT ep.projectid, COUNT(DISTINCT e.department) AS num_departments
+   FROM empproject ep
+   JOIN employee e ON ep.empid = e.empid
+   GROUP BY ep.projectid;
+   ```
+
+9. **How many projects started in the year 2010:**
+   ```sql
+   SELECT COUNT(*) 
+   FROM empproject 
+   WHERE startyear = 2010;
+   ```
+
+These queries are based on the provided schema and the given requirements. If there are any additional details or constraints, further refinement of the queries may be necessary.
+
+Here are the SQL queries for the additional statements:
+
+10. **How many projects started and finished in the same year:**
+   ```sql
+   SELECT COUNT(*)
+   FROM empproject
+   WHERE startyear = endyear;
+   ```
+
+11. **Select the name of the employee whose name's 3rd character is 'h':**
+   ```sql
+   SELECT empname
+   FROM employee
+   WHERE SUBSTR(empname, 3, 1) = 'h';
+   ```
+
+12. **Select the department name of the company which is assigned to the employee whose employee id is greater than 103:**
+   ```sql
+   SELECT DISTINCT d.deptname
+   FROM employee e
+   JOIN empdept d ON e.department = d.deptid
+   WHERE e.empid > 103;
+   ```
+
+13. **Select the name of the employee who is working under Abhishek:**
+   ```sql
+   SELECT e.empname
+   FROM employee e
+   JOIN employee h ON e.empheadid = h.empid
+   WHERE h.empname = 'Abhishek';
+   ```
+
+14. **Select the name of the employee who is department head of HR:**
+   ```sql
+   SELECT e.empname
+   FROM employee e
+   JOIN empdept d ON e.empid = d.depthead
+   WHERE d.deptname = 'HR';
+   ```
+
+15. **Select the name and email of the Dept Head who is not permanent:**
+   ```sql
+   SELECT e.empname, e.emaildid
+   FROM employee e
+   JOIN empdept d ON e.empid = d.depthead
+   JOIN empsalary s ON e.empid = s.empid
+   WHERE s.ispermanent = 'NO';
+   ```
+
+These queries are crafted based on the schema provided and the requirements stated. If there are specific naming conventions or additional constraints, they can be adjusted accordingly.
