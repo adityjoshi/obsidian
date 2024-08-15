@@ -848,3 +848,9 @@ Java and C++ share many object-oriented features but differ in key areas such as
 
 - **Purpose**: The JDK is a full-featured software development kit for Java, including the JRE, compilers, debuggers, and tools necessary for developing Java applications.
 - **Role in Development**: The JDK includes the `javac` compiler, which you use to compile the `GreetingApp.java` file into bytecode (`GreetingApp.class`). It also includes tools like `javadoc` for documentation and `jdb` for debugging.
+
+
+
+
+# 
+``
