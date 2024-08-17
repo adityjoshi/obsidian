@@ -656,3 +656,76 @@ public class BufferedReadWriteExample {
 ### Summary
 
 Buffered streams are generally preferred for file I/O operations because they provide better performance and convenience compared to unbuffered streams. The program example above shows how to read from and write to a text file efficiently using `BufferedReader` and `BufferedWriter`.
+
+# scanner for input and printer Writer 
+Here's a Java program that uses the `Scanner` class for input and the `PrintWriter` class for output. The program demonstrates reading user input and writing it to a file.
+
+### Java Program Example
+
+```java
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class ScannerPrintWriterExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the name of the output file: ");
+        String fileName = scanner.nextLine();
+
+        // Creating a File object for the output file
+        File outputFile = new File(fileName);
+
+        try (PrintWriter writer = new PrintWriter(outputFile)) {
+            System.out.println("Enter text to write to the file (type 'exit' to stop):");
+
+            while (true) {
+                String input = scanner.nextLine();
+                if ("exit".equalsIgnoreCase(input)) {
+                    break;
+                }
+                writer.println(input);
+            }
+
+            System.out.println("Data has been written to " + fileName);
+        } catch (FileNotFoundException e) {
+            System.err.println("Error: The file " + fileName + " could not be created.");
+            e.printStackTrace();
+        } finally {
+            scanner.close();
+        }
+    }
+}
+```
+
+### How the Program Works
+
+1. **User Input with `Scanner`:**
+   - The `Scanner` class is used to read user input from the console. In this example, it first asks for the name of the output file and then reads text input from the user until the user types "exit".
+
+2. **File Output with `PrintWriter`:**
+   - The `PrintWriter` class is used to write the user input to a file. It writes each line of input to the file specified by the user.
+
+3. **Handling I/O Exceptions:**
+   - The `try` block contains the code that writes to the file. If the file cannot be created (e.g., due to a permissions issue or invalid file name), a `FileNotFoundException` is thrown.
+   - The `catch` block handles this exception by printing an error message and the stack trace.
+   - The `finally` block ensures that the `Scanner` resource is closed properly, even if an exception occurs.
+
+### Importance of Handling I/O Exceptions
+
+1. **Reliability:**
+   - Handling I/O exceptions ensures that your program can recover from errors like missing files, incorrect file paths, or permission issues without crashing. It allows the program to notify the user of the problem and possibly take corrective action.
+
+2. **Resource Management:**
+   - Proper exception handling ensures that resources such as file handles and streams are released correctly. For example, not closing a file or a stream can lead to resource leaks, which may eventually cause the application to run out of resources.
+
+3. **User Experience:**
+   - By catching and handling exceptions, you can provide meaningful error messages to the user, helping them understand what went wrong and possibly how to fix it. This leads to a better user experience.
+
+4. **Security:**
+   - Handling exceptions can prevent the exposure of sensitive information. If an exception is thrown and not caught, it might display detailed stack traces that could reveal internal details of the application, which might be exploited by attackers.
+
+### Summary
+
+The `Scanner` and `PrintWriter` classes provide a straightforward way to handle input and output in Java. However, handling I/O exceptions is crucial to ensure that the program remains robust, manages resources effectively, and provides a good user experience. The program example above demonstrates how to use these classes for basic file output and emphasizes the importance of proper exception handling.
