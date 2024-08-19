@@ -129,6 +129,7 @@ public class ThrowsExample {
 
 **Explanation:**
 
+
 - The `readFile` method is declared with `throws FileNotFoundException`, indicating that it might throw this checked exception.
 - If the file does not exist, a `FileNotFoundException` is thrown when attempting to create a `FileReader` object.
 - The calling method (`main`) must handle or propagate this exception, hence it is caught using a try-catch block.
