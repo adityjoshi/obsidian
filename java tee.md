@@ -729,3 +729,67 @@ public class ScannerPrintWriterExample {
 ### Summary
 
 The `Scanner` and `PrintWriter` classes provide a straightforward way to handle input and output in Java. However, handling I/O exceptions is crucial to ensure that the program remains robust, manages resources effectively, and provides a good user experience. The program example above demonstrates how to use these classes for basic file output and emphasizes the importance of proper exception handling.
+
+
+### **Java Application: Reading and Writing Binary Data**
+
+Here's a Java program that reads data from a binary file using `FileInputStream` and writes it to another binary file using `FileOutputStream`. 
+
+### **Java Code:**
+
+```java
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class BinaryFileCopy {
+    public static void main(String[] args) {
+        // File paths for the source and destination files
+        String sourceFile = "source.dat";
+        String destinationFile = "destination.dat";
+
+        try (FileInputStream inputStream = new FileInputStream(sourceFile);
+             FileOutputStream outputStream = new FileOutputStream(destinationFile)) {
+
+            // Buffer to hold the data
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+
+            // Reading from the source file and writing to the destination file
+            while ((bytesRead = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+
+            System.out.println("File copied successfully!");
+
+        } catch (IOException e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+}
+```
+
+### **Explanation:**
+
+1. **FileInputStream**:
+   - Used to read raw byte data from a binary file. 
+   - The `read()` method reads data into a byte array (`buffer`) and returns the number of bytes read. It returns `-1` when the end of the file is reached.
+   - This class is suitable for reading any binary data, such as images, audio files, or any other non-text data.
+
+2. **FileOutputStream**:
+   - Used to write raw byte data to a binary file.
+   - The `write()` method writes the data from the buffer into the destination file.
+   - It is used for writing binary data, ensuring that the output is an exact copy of the input data, byte-for-byte.
+
+### **Role of Byte-Oriented Streams in Handling Binary Data**
+
+- **Byte-oriented streams** (`InputStream` and `OutputStream`) are essential for handling binary data in Java. Unlike character-oriented streams (like `Reader` and `Writer`), byte streams do not perform any character encoding or decoding, making them ideal for processing raw binary data.
+
+- **Use Cases**:
+  - **Reading/Writing Files**: For copying files, saving or loading images, audio, or other media, byte streams ensure that the exact binary content is preserved without alteration.
+  - **Network Communication**: In applications where data needs to be sent over a network as raw bytes (e.g., sockets), byte streams are critical for handling the data efficiently.
+  - **Data Storage**: When storing or retrieving data in a binary format, such as in databases or binary files, byte streams are used to ensure that data integrity is maintained.
+
+### **Summary**
+
+This program demonstrates the use of byte-oriented streams to read from and write to binary files in Java. Byte streams are crucial when working with non-text data, as they allow direct manipulation of raw binary data without any conversion, ensuring the data's fidelity.
