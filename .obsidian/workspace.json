@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "3bde3e4f409d7803",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a19e04a3184dd9dd",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ff3e89769c22b6e1",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML.md",
+                "file": "dbms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML.md",
+                "file": "dbms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML.md"
+                "file": "dbms.md"
               }
             }
           }
@@ -184,13 +197,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19c38ca01c0f2dce",
+  "active": "3bde3e4f409d7803",
   "lastOpenFiles": [
+    "ML.md",
+    "dbms.md",
     "EDM.md",
     "jaava.md",
     "Java.md",
     "java tee.md",
-    "ML.md",
     "java m5.md",
     "java m4.md",
     "java m3.md",
