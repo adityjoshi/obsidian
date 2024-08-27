@@ -287,3 +287,18 @@ Views can enhance database security by providing a way to control access to data
      ```
 
 By using views, you can implement fine-grained security controls over who can access specific data, thus enhancing the overall security of the database system.
+
+
+
+
+Here’s a simplified table comparing **Conflict Serializability** and **View Serializability**:
+
+| **Aspect**             | **Conflict Serializability**                        | **View Serializability**                            |
+|------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Definition**         | Schedule can be made serial by swapping non-conflicting operations. | Schedule produces the same final result as a serial one. |
+| **Strictness**         | More restrictive.                                   | Less restrictive.                                   |
+| **Detection**          | Easier to check using conflict graphs.              | Harder to check, requires comparing final outcomes. |
+| **Complexity**         | Simpler.                                             | More complex.                                       |
+| **Practicality**       | Commonly used.                                      | Theoretically more flexible but less practical.     |
+
+This version gives a quick, clear distinction between the two types of serializability.
