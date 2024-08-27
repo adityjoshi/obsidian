@@ -236,6 +236,7 @@ SELECT * FROM student_view;
 
 ### How is a View Different from a Table?
 
+
 1. **Storage**:
    - **Table**: A table physically stores data in the database.
    - **View**: A view does not store data physically; it only stores the SQL query that defines it. The data is generated dynamically when the view is accessed.
