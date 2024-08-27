@@ -212,3 +212,78 @@ To avoid data redundancy, you can apply several strategies, depending on the con
    - Use **ETL (Extract, Transform, Load)** tools that help in integrating data from different sources without duplication.
 
 Applying these principles will help maintain data integrity, optimize storage, and enhance the performance of your systems by reducing unnecessary redundancy.
+
+
+
+### What is a View in SQL?
+
+A **view** in SQL is a virtual table that is based on the result set of a SQL query. Unlike a table, a view does not store data physically; instead, it dynamically generates data when queried. A view is essentially a saved query that you can treat as if it were a table.
+
+Here’s an example of how you might create a view:
+
+```sql
+CREATE VIEW student_view AS
+SELECT sid, name, cid
+FROM student
+JOIN enrolled ON student.sid = enrolled.sid;
+```
+
+This `student_view` can be queried just like a table:
+
+```sql
+SELECT * FROM student_view;
+```
+
+### How is a View Different from a Table?
+
+1. **Storage**:
+   - **Table**: A table physically stores data in the database.
+   - **View**: A view does not store data physically; it only stores the SQL query that defines it. The data is generated dynamically when the view is accessed.
+
+2. **Data Manipulation**:
+   - **Table**: You can perform INSERT, UPDATE, DELETE, and SELECT operations directly on a table.
+   - **View**: Generally, a view is read-only. However, you can perform INSERT, UPDATE, and DELETE operations on a view if certain conditions are met, such as the view being based on a single table without any complex joins, subqueries, or aggregations.
+
+3. **Performance**:
+   - **Table**: Since data is stored in a table, accessing it can be faster, especially for large datasets.
+   - **View**: Because a view generates data dynamically by running a query, it might be slower than accessing a table, particularly for complex queries or large datasets.
+
+4. **Use Case**:
+   - **Table**: Used to store persistent data that can be queried, updated, and managed over time.
+   - **View**: Used to simplify complex queries, provide a specific representation of data, or restrict access to certain data.
+
+### How Can a View Enhance Security?
+
+Views can enhance database security by providing a way to control access to data. Here’s how:
+
+1. **Data Masking**:
+   - A view can hide sensitive data by only exposing the necessary columns. For example, if you have a table with sensitive information like social security numbers, you can create a view that omits these columns.
+   - ```sql
+     CREATE VIEW employee_public_view AS
+     SELECT emp_id, name, department
+     FROM employees;
+     ```
+
+2. **Access Control**:
+   - By granting users access to a view instead of the underlying tables, you can control what data they can see and interact with. This prevents users from accessing sensitive or irrelevant information.
+   - For example, an HR department might only need access to employee names and departments but not their salaries. A view can be created to provide just that information.
+
+3. **Simplified Querying**:
+   - Views can simplify complex queries by encapsulating them. Users can interact with the view without needing to understand the underlying complex query logic, reducing the risk of errors that might lead to accidental data exposure.
+   - ```sql
+     CREATE VIEW sales_summary AS
+     SELECT product_id, SUM(sales_amount) AS total_sales
+     FROM sales
+     GROUP BY product_id;
+     ```
+
+4. **Row-Level Security**:
+   - A view can restrict access to specific rows of data by incorporating filtering conditions. This ensures that users can only see the data relevant to them.
+   - ```sql
+     CREATE VIEW sales_region_west AS
+     SELECT *
+     FROM sales
+     WHERE region = 'West';
+     ```
+
+By using views, you can implement fine-grained security controls over who can access specific data, thus enhancing the overall security of the database system.
