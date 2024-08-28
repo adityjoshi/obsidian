@@ -224,6 +224,7 @@ Here’s an example of how you might create a view:
 ```sql
 CREATE VIEW student_view AS
 SELECT sid, name, cid
+
 FROM student
 JOIN enrolled ON student.sid = enrolled.sid;
 ```
