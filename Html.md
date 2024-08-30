@@ -865,3 +865,43 @@ context.stroke();
 </html>
 
 ```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <xsl:template match="/">
+        <html>
+            <head>
+                <title>Customer Data</title>
+                <style>
+                    table { width: 100%; border-collapse: collapse; }
+                    th, td { border: 1px solid black; padding: 8px; text-align: left; }
+                </style>
+            </head>
+            <body>
+                <h2>Customer Data</h2>
+                <table>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Name</th>
+                        <th>ODD</th>
+                        <th>Mobile</th>
+                        <th>Billing Amount</th>
+                    </tr>
+                    <xsl:for-each select="customers/customer">
+                        <tr>
+                            <td><xsl:value-of select="custid"/></td>
+                            <td><xsl:value-of select="custname"/></td>
+                            <td><xsl:value-of select="custodd"/></td>
+                            <td><xsl:value-of select="custmobile"/></td>
+                            <td><xsl:value-of select="custbillamt"/></td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+
+</xsl:stylesheet>
+```
