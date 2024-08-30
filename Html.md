@@ -834,4 +834,34 @@ context.stroke();
 </body>
 
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Triangle</title>
+</head>
+<body>
+    <canvas id="triangleCanvas" width="200" height="200"></canvas>
+    <script>
+        var canvas = document.getElementById("triangleCanvas");
+        var context = canvas.getContext("2d");
+
+        // Draw the triangle
+        context.beginPath();
+        context.moveTo(100, 20);   // Top vertex
+        context.lineTo(20, 180);   // Bottom left vertex
+        context.lineTo(180, 180);  // Bottom right vertex
+        context.closePath();       // Close the triangle
+
+        // Set the fill color and fill the triangle
+        context.fillStyle = 'purple';
+        context.fill();
+
+        // Optionally, stroke the triangle outline
+        context.stroke();
+    </script>
+</body>
+</html>
+
 ```
