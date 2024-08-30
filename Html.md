@@ -765,5 +765,73 @@ From a business perspective, web application architecture is important for build
 
 <source src="Basic Topics in Systems Design - Course (1).mp4" type="video/mp4">
 
-</video>
+</video> 
+```
+
+```html
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Canvas Smiley Face</title>
+
+</head>
+
+<body>
+
+<canvas id="smileyCanvas" width="200" height="200"></canvas>
+
+<script>
+
+var canvas = document.getElementById("smileyCanvas");
+
+var context = canvas.getContext("2d");
+
+  
+
+context.beginPath();
+
+context.arc(100, 100, 80, 0, Math.PI * 2, true)
+
+context.fillStyle = 'purple';
+
+context.fill();
+
+context.stroke();
+
+  
+
+context.beginPath();
+
+context.arc(70, 70, 10, 0, Math.PI * 2, true);
+
+context.fillStyle = 'black';
+
+context.fill();
+
+  
+
+context.beginPath();
+
+context.arc(130, 70, 10, 0, Math.PI * 2, true);
+
+context.fillStyle = 'black';
+
+context.fill();
+
+  
+
+context.beginPath();
+
+context.arc(100, 100, 50, 0, Math.PI, false);
+
+context.stroke();
+
+</script>
+
+</body>
+
+</html>
 ```
