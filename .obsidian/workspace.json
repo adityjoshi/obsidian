@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "19c38ca01c0f2dce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3bde3e4f409d7803",
             "type": "leaf",
             "state": {
@@ -209,14 +197,14 @@
   },
   "active": "cb6b66f1603138f4",
   "lastOpenFiles": [
+    "Java.md",
+    "Html.md",
+    "jaava.md",
+    "java m5.md",
+    "java m3.md",
+    "java m4.md",
     "module 5.md",
     "java tee.md",
-    "java m5.md",
-    "java m4.md",
-    "java m3.md",
-    "Java.md",
-    "jaava.md",
-    "Html.md",
     "dbms.md",
     "ML.md",
     "EDM.md",

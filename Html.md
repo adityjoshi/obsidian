@@ -744,3 +744,26 @@ updateStudent("Jane Smith", "Jane Doe");
 deleteStudent("John Doe");
 ```
 
+A web application architecture is like a blueprint that shows how the different parts of a web app work together. It depends on how the tasks are divided between the client (the user's device) and the server (where the app is hosted).
+
+Technically, it’s like the framework or backbone of the app, including all its pieces like databases, systems, servers, and interfaces, as well as how they communicate with each other. In simpler terms, it explains how the app responds when a user or a server makes a request.
+
+From a business perspective, web application architecture is important for building web apps and making sure they are fast, can handle growth, and are secure.
+
+``` html
+<h3>using audio tag</h3>
+
+<audio controls autoplay muted>
+
+<source src="SHIKWA - Talhah Yunus Prod. By Jokhay [music].mp3" type="audio/mpeg">
+
+</audio>
+
+<h3>using video tag</h3>
+
+<video width="420" height="240" controls>
+
+<source src="Basic Topics in Systems Design - Course (1).mp4" type="video/mp4">
+
+</video>
+```
