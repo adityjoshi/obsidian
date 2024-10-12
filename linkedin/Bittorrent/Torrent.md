@@ -1,5 +1,4 @@
 
-
 ## BitTorrent Inside Out: Building T
 
 BitTorrent is one of the biggest contributions to engineering in the realm of data transfer and file sharing. This revolutionary protocol has transformed how we think about downloading and distributing large files, allowing for faster, more efficient, and decentralised sharing across the globe.
